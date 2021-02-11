@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>shoes trend</title>
+        <link href="design.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <div class=" header navbar navbar-fixed-top navbar-inverse ">
+        <div class="inner-header">
+            <div class="logo"><a href="index.php" class="connect">SHOES STOREz  </a></div>
+            <div class="header-link"><a href="contact.php"  class="connect" ><span class="glyphicon glyphicon-phone"></span> CONTACT US</a></div>
+            <div class="header-link"><a href="about.php" class="connect"><span class="glyphicon glyphicon-tasks"></span> ABOUT US</a></div>
+            <div class="header-link"><a href="#myModal" class="connect" data-toggle="modal"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></div>
+            <div class="header-link"><a href="signup.php" class="connect"><span class="glyphicon glyphicon-user"></span>  SIGNUP</a></div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">LOGIN</h4>
+          </div>
+          <div class="modal-body">
+            <p>Don't have an account?<a href="signup.html">Register</a></p>
+            <form method="post" action="login.php">
+                     <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" class="form-control" placeholder="Email" required = "true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+                     </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" class="form-control" placeholder="Password" required = "true" pattern="(?=^.{6,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                    </div>
+               <div class="form-group"> <button class="btn btn-primary">Login</button></div>
+                <p><a>Forget Password?</a></p>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+        <div class="banner-image">
+            <div class="inner-banner-image">
+                <div class="container">
+                        <div class="banner-content">
+                            <h1>Grab Your Pairs Today</h1>
+                            <p>Flat 40% OFF on premium brands</p>
+                            <br>
+                            <a href="#product" class=" btn-lg-active button"><b>SHOP NOW</b> </a>
+                        </div> 
+                </div> 
+            </div>
+        </div>
+    </div>
+        <br>
+        <center><div class="border"><center><h5><b>OUR COLLECTION</b></h5></center></div></center>
+        <br>
+        <hr/>
+    <div class="container-fluid" id="product">
+       <center>
+            <div class="control">
+                <div class="row">
+                    <div class="col-xs-4 panel panel-default">
+                        <div class="panel-heading head"><h4><b>HRX</b></h4></div>
+                        <div class="panel-body">
+                              <img src="pics/shoescount1.jpg" class="resize">
+                            <div class="caption">
+                                <h4>HRX BY Hrithik Roshan</h4>
+                                <p style="color: gray">Men Black Solid Running Shoes</p>
+                                <p><b>Rs.1934</b>  <s>  Rs. 4299</s><mark>(55% OFF)</mark></p>
+                                <br>
+                                 <a href="#myModal" data-toggle="modal" class=" btn-lg-active button1"><b>SHOP NOW</b> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 panel panel-default">
+                        <div class="panel-heading head"><h4><b>SUPERDRY</b></B></h4></div>
+                        <div class="panel-body"> 
+                              <img src="pics/shoescoount2.jpg" class="resize">
+                            <div class="caption">
+                                <h4>Superdry</h4>
+                                <p style="color: gray">Men Olive Green Sneakers</p>
+                                <p><b>Rs.2799</b>  <s>  Rs. 3999</s><mark>(30% OFF)</mark></p><br>
+                                 <a href="#myModal" data-toggle="modal" class=" btn-lg-active button1"><b>SHOP NOW</b> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 panel panel-default">
+                        <div class="panel-heading head"><h4><b>ADIDAS</b></h4></div>
+                        <div class="panel-body">
+                              <img src="pics/shoecount3.jpg" class="resize">
+                            <div class="caption">
+                                <h4>ADIDAS</h4>
+                                <p>Men Black Solid Running Shoes</p>
+                                <p><b>Rs.1934</b>  <s>  Rs. 4299</s><mark>(55% OFF)</mark></p>
+                                    <br>
+                                 <a href="#myModal" data-toggle="modal" class=" btn-lg-active button1"><b>SHOP NOW</b> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           <div class="row">
+                    <div class="col-xs-4 panel panel-default">
+                        <div class="panel-heading head"><h4><b>WRONG</b></h4></div>
+                        <div class="panel-body">
+                              <img src="pics/shoecount4.jpg" class="resize">
+                            <div class="caption">
+                                <h4>WRONG</h4>
+                                <p>Men White Solid Sneakers</p>
+                                <p><b>Rs.2239</b>  <s>  Rs. 3199</s><mark>(30% OFF)</mark></p>
+                                <br>
+                                 <a href="#myModal" data-toggle="modal" class=" btn-lg-active button1"><b>SHOP NOW</b> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 panel panel-default">
+                        <div class="panel-heading head"><h4><b>NIKE</b></h4></div>
+                        <div class="panel-body">
+                              <img src="pics/shoecount6.jpg" class="resize">
+                            <div class="caption">
+                                <h4>Nike</h4>
+                                <p>Men Black FLEX CONTROL TR4 Trainig Shoes</p>
+                                <p><b>Rs.5495</b></p>
+                                <br>
+                                 <a href="#myModal" data-toggle="modal" class=" btn-lg-active button1"><b>SHOP NOW</b> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 panel panel-default">
+                        <div class="panel-heading head"><h4><b>MAST & HARBOUR</b></h4></div>
+                        <div class="panel-body">
+                              <img src="pics/shoescount5.jpg" class="resize">
+                            <div class="caption">
+                                <h4>Mast & Harbour</h4>
+                                <p>Men white Solid Sneakers</p>
+                                <p><b>Rs.1304</b>  <s>  Rs. 2899</s><mark>(55% OFF)</mark></p>
+                                <br>
+                                 <a href="#myModal" data-toggle="modal" class=" btn-lg-active button1"><b>SHOP NOW</b> </a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+          </center>
+        </div>
+        <hr/>
+    <footer class="back">
+        <div class="container textcolor"  >
+           <div class="row">
+               <div class="col-xs-4">
+                    <div><h3><b>Information</b></h3></div>
+                    <div>
+                        <div><a href="about.php" class="connect">About us</a></div>
+                        <div><a href="contact.php" class="connect">Contact us</a></div>
+                   </div>
+               </div>
+               <div class="col-xs-4">
+                    <div><h3><b>My Account</b></h3></div>
+                    <div>
+                        <div><a href="#myModal" class="connect" data-toggle="modal">Login</a></div>
+                        <div><a href="signup.php" class="connect">Sign up</a></div>
+                   </div>
+               </div>
+               <div class="col-xs-4">
+                    <div><h3><b>Contact us</b></h3></div>
+                    <div>
+                        <div><p>Contact +91 00000 00000</p></div>
+                        
+                   </div>
+               </div>
+           </div>
+        </div>
+        <br>
+        <br>
+    </footer> 
+</body>  
+</html> 
